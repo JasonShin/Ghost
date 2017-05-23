@@ -1,0 +1,46 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:ms:20170412':
+    - passport-ghost > ghost-ignition > express > finalhandler > debug > ms:
+        patched: '2017-05-23T08:41:28.447Z'
+    - gscan > express > send > ms:
+        patched: '2017-05-23T08:41:28.447Z'
+    - passport-ghost > ghost-ignition > express > send > ms:
+        patched: '2017-05-23T08:41:28.447Z'
+    - compression > debug > ms:
+        patched: '2017-05-23T08:41:28.447Z'
+    - cookie-session > debug > ms:
+        patched: '2017-05-23T08:41:28.447Z'
+    - gscan > express > debug > ms:
+        patched: '2017-05-23T08:41:28.447Z'
+    - gscan > ghost-ignition > express > debug > ms:
+        patched: '2017-05-23T08:41:28.447Z'
+    - passport-ghost > ghost-ignition > express > debug > ms:
+        patched: '2017-05-23T08:41:28.447Z'
+    - gscan > express > finalhandler > debug > ms:
+        patched: '2017-05-23T08:41:28.447Z'
+    - gscan > ghost-ignition > express > finalhandler > debug > ms:
+        patched: '2017-05-23T08:41:28.447Z'
+    - gscan > ghost-ignition > express > send > ms:
+        patched: '2017-05-23T08:41:28.447Z'
+    - gscan > express > send > debug > ms:
+        patched: '2017-05-23T08:41:28.447Z'
+    - gscan > ghost-ignition > express > send > debug > ms:
+        patched: '2017-05-23T08:41:28.447Z'
+    - passport-ghost > ghost-ignition > express > send > debug > ms:
+        patched: '2017-05-23T08:41:28.447Z'
+    - gscan > express > serve-static > send > debug > ms:
+        patched: '2017-05-23T08:41:28.447Z'
+    - gscan > ghost-ignition > express > serve-static > send > debug > ms:
+        patched: '2017-05-23T08:41:28.447Z'
+    - passport-ghost > ghost-ignition > express > serve-static > send > debug > ms:
+        patched: '2017-05-23T08:41:28.447Z'
+    - gscan > express > serve-static > send > ms:
+        patched: '2017-05-23T08:41:28.447Z'
+    - gscan > ghost-ignition > express > serve-static > send > ms:
+        patched: '2017-05-23T08:41:28.447Z'
+    - passport-ghost > ghost-ignition > express > serve-static > send > ms:
+        patched: '2017-05-23T08:41:28.447Z'
