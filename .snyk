@@ -1,0 +1,32 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - gscan > ghost-ignition > express > finalhandler > debug:
+        patched: '2017-09-26T08:41:15.114Z'
+    - compression > debug:
+        patched: '2017-09-26T08:41:15.114Z'
+    - passport-ghost > ghost-ignition > express > debug:
+        patched: '2017-09-26T08:41:15.114Z'
+    - gscan > ghost-ignition > express > debug:
+        patched: '2017-09-26T08:41:15.114Z'
+    - gscan > express > finalhandler > debug:
+        patched: '2017-09-26T08:41:15.114Z'
+    - passport-ghost > ghost-ignition > express > finalhandler > debug:
+        patched: '2017-09-26T08:41:15.114Z'
+    - gscan > express > debug:
+        patched: '2017-09-26T08:41:15.114Z'
+    - gscan > express > send > debug:
+        patched: '2017-09-26T08:41:15.114Z'
+    - passport-ghost > ghost-ignition > express > send > debug:
+        patched: '2017-09-26T08:41:15.114Z'
+    - gscan > ghost-ignition > express > send > debug:
+        patched: '2017-09-26T08:41:15.114Z'
+    - gscan > express > serve-static > send > debug:
+        patched: '2017-09-26T08:41:15.114Z'
+    - passport-ghost > ghost-ignition > express > serve-static > send > debug:
+        patched: '2017-09-26T08:41:15.114Z'
+    - gscan > ghost-ignition > express > serve-static > send > debug:
+        patched: '2017-09-26T08:41:15.114Z'
