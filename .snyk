@@ -1,0 +1,28 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - archiver > archiver-utils > lodash:
+        patched: '2019-07-09T01:34:17.137Z'
+    - knex > lodash:
+        patched: '2019-07-09T01:34:17.137Z'
+    - archiver > lodash:
+        patched: '2019-07-09T01:34:17.137Z'
+    - amperize > async > lodash:
+        patched: '2019-07-09T01:34:17.137Z'
+    - knex-migrator > knex > lodash:
+        patched: '2019-07-09T01:34:17.137Z'
+    - bookshelf > lodash:
+        patched: '2019-07-09T01:34:17.137Z'
+    - archiver > zip-stream > lodash:
+        patched: '2019-07-09T01:34:17.137Z'
+    - archiver > async > lodash:
+        patched: '2019-07-09T01:34:17.137Z'
+    - archiver > zip-stream > archiver-utils > lodash:
+        patched: '2019-07-09T01:34:17.137Z'
+    - ghost-editor > ember-cli-htmlbars > broccoli-persistent-filter > async-promise-queue > async > lodash:
+        patched: '2019-07-09T01:34:17.137Z'
+    - ghost-editor > ember-cli-babel > broccoli-babel-transpiler > broccoli-persistent-filter > async-promise-queue > async > lodash:
+        patched: '2019-07-09T01:34:17.137Z'
